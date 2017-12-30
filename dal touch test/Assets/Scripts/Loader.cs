@@ -15,6 +15,7 @@ public class Loader : MonoBehaviour {
     int level;
    // bool door;
 
+
     void Awake()
     {
         //Check if a GameManager has already been assigned to static variable GameManager.instance or if it's still null

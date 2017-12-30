@@ -11,8 +11,10 @@ public class GMManager : MonoBehaviour
     public static GMManager instance = null;
     public int gameLevel;
     public string currentScene;
-    public bool HomeDoor, TheaterDoor,townDoor, SchoolDoor, HospitalDoor, PoliceDoor, SecretBuildingDoor, LocalStationDoor,Apt1Door;   
+    public bool HomeDoor, TheaterDoor,townDoor, SchoolDoor, HospitalDoor, PoliceDoor, SecretBuildingDoor, LocalStationDoor,Apt1Door;
 
+
+    
     //Awake is always called before any Start functions
     void Awake()
     {
@@ -92,6 +94,7 @@ public class GMManager : MonoBehaviour
 
         Time.timeScale = currentTimeScale;
     }
+
 
 
 }
